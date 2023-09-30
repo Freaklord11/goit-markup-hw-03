@@ -2,7 +2,33 @@
     --NAVY-BLUE: #2E2F42;
     --IRIS: #4D5AE5;
     --WHITE: #FFF;
+    --CORNFLOWER: #E7E9FC;
 }
+
+/*Navigation*/
+
+.NavBar{
+    display: flex; 
+    justify-content: space-between;
+    width: 1440px;
+    width: 1440px;
+    height: 72px;
+    align-items: center;    
+    background-color: var(--CORNFLOWER);
+}
+.navi-menu{
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 40px;
+}
+
+.contacts{
+    margin-top: 0px;
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 40px;
+}
+
 /*Body Default Value*/
 body{
     font-family: roboto,sans-serif;
@@ -11,28 +37,6 @@ body{
     font-weight: 400;
 }
 
-/* Navigation Section */
-.logo{
-    text-decoration: none;
-    color: var(--NAVY-BLUE);
-    font-weight: 700;
-    font-size: 24px;
-}
-.logo span{
-    color:var(--IRIS);
-}
-
-header{
-    margin-top: 0px;
-    margin-bottom: 0px;
-}
-.logo-footer{
-    text-decoration: none;
-    color:var(--WHITE);
-}
-.logo-footer span{
-    color:var(--IRIS);
-}
 /* list style global*/
 li{
     list-style: none;
@@ -42,35 +46,90 @@ ul{
 }
 
 .header-sub{
-    text-align: center;
+    display: block;
+    justify-content: center;
+    width: 496px;
+    height: 120px;
+    font-family: Roboto;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px; 
 }
+
+/* Navigation Section */
+
+.NavBar.box{
+    width: 1440px;
+}
+.logo{
+    text-decoration: none;
+    color: var(--NAVY-BLUE);
+    font-weight: 700;
+    font-size: 24px;
+}
+.logo span{
+    color:var(--IRIS);
+}
+.navi-menu{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.navi-menu a{
+    text-decoration: none;
+    color: var(--NAVY-BLUE);
+    font-weight: 500;
+}
+
+.logo-footer{
+    text-decoration: none;
+    color:var(--WHITE);
+}
+.logo-footer span{
+    color:var(--IRIS);
+}
+
+/*Order Service*/
+
 .header-solution{
     background-color: var(--NAVY-BLUE);
     color:var(--WHITE);
+    width: 1440px;
+    height: 600px;
+    display: inline-block;
+    justify-content: center;
+}
+.header-div{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
 }
 footer{
     background-color: var(--NAVY-BLUE);
     color:var(--WHITE);
 }
+
+
+/*Button Div+*/
+
 .order{
     background-color: var(--IRIS);
     color: var(--WHITE);
+    display: inline-flex;
+    padding: 16px 32px;
+    align-items: flex-start;
+
+}
+.order-button{
+    display: flex;
+    justify-content: center;
+
 }
 h2{
     font-size: 40px;
 }
-.navi{
-    margin-top: 0px;
-    margin-bottom: 0px;
-}
-.navi a{
-    text-decoration: none;
-    color: var(--NAVY-BLUE);
-    font-weight: 500;
-}
-.contacts{
-    margin-top: 0px;
-}
+
 .order{
     border-style: none;
     font-weight: 500;
