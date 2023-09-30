@@ -3,6 +3,7 @@
     --IRIS: #4D5AE5;
     --WHITE: #FFF;
     --CORNFLOWER: #E7E9FC;
+    --CLOUD: #F4F4FD;
 }
 
 /*Navigation*/
@@ -44,15 +45,19 @@ li{
 ul{
     padding-left: 0%;
 }
+h2{
+    display:block;
+    justify-content: center;
+    font-size:40px;
+    text-align: center;
+}
 
-.header-sub{
+.header-main{
     display: block;
     justify-content: center;
     width: 496px;
     height: 120px;
-    font-family: Roboto;
     font-size: 56px;
-    font-style: normal;
     font-weight: 700;
     line-height: 60px; 
 }
@@ -84,6 +89,7 @@ ul{
 .logo-footer{
     text-decoration: none;
     color:var(--WHITE);
+    font-weigth: 400px;
 }
 .logo-footer span{
     color:var(--IRIS);
@@ -105,7 +111,7 @@ ul{
 }
 footer{
     background-color: var(--NAVY-BLUE);
-    color:var(--WHITE);
+    color: var(--CLOUD);
     width: 1440px;
     height: 312px;
 }
@@ -124,10 +130,6 @@ footer{
 .order-button{
     display: flex;
     justify-content: center;
-}
-h2{
-    font-size: 40px;
-    text-align: center;
 }
 
 .order{
@@ -194,10 +196,13 @@ h2{
 .team-members{
     display: flex;
     flex-direction: row;
-}
-.team-ford{
-    display: flex;
-    flex-direction: column;
     justify-content: center;
+}
 
+.foot-header{
+    display: block;
+}
+
+.foot-body{
+    width: 264px;
 }
