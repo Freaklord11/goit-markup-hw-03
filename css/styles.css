@@ -125,6 +125,7 @@ footer{
 }
 h2{
     font-size: 40px;
+    text-align: center;
 }
 
 .order{
@@ -145,4 +146,39 @@ h2{
 .logo-footer span{
     color: var(--IRIS);
     text-decoration: none;
+}
+
+.studio-strat{
+    display: flex;
+    width: 264px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+}
+.studio-punc{
+    display: flex;
+    width: 264px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;   
+}   
+.studio-dili{
+    display: flex;
+    width: 264px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;   
+}   
+.studio-tech{
+    display: flex;
+    width: 264px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;   
+}  
+.studio-des{
+    display: flex;
+    flex-direction: row;
+    gap:24px;
+    justify-content: center;
 }
