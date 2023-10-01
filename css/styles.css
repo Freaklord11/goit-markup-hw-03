@@ -98,21 +98,15 @@ h2{
 /*Order Service*/
 
 .header-solution{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
     background-color: var(--NAVY-BLUE);
     color:var(--WHITE);
     width: 1440px;
     height: 600px;
     flex-shrink: 0;
-}
-.header-div{
-    display: flex;
-    justify-content: center;
-}
-footer{
-    background-color: var(--NAVY-BLUE);
-    color: var(--CLOUD);
-    width: 1440px;
-    height: 312px;
 }
 
 
@@ -126,11 +120,6 @@ footer{
     align-items: flex-start;
 
 }
-.order-button{
-    display: flex;
-    justify-content: center;
-}
-
 .order{
     border-style: none;
     font-weight: 500;
@@ -139,6 +128,7 @@ footer{
 .order:hover{
     opacity: .5;
 }
+
 .contacts a{
     text-decoration: none;
     font-style: normal;
@@ -195,6 +185,20 @@ footer{
 .team-members{
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    gap: 24px;
+
+    
+}
+
+
+footer{
+    background-color: var(--NAVY-BLUE);
+    color: var(--CLOUD);
+    width: 1440px;
+    height: 312px;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
 }
 
