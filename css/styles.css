@@ -89,7 +89,6 @@ h2{
 .logo-footer{
     text-decoration: none;
     color:var(--WHITE);
-    font-weigth: 400px;
 }
 .logo-footer span{
     color:var(--IRIS);
@@ -100,8 +99,8 @@ h2{
 .header-solution{
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
-    
     background-color: var(--NAVY-BLUE);
     color:var(--WHITE);
     width: 1440px;
