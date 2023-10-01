@@ -6,6 +6,11 @@
     --CLOUD: #F4F4FD;
 }
 
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
 /*Navigation*/
 
 .NavBar{
@@ -34,7 +39,7 @@
 body{
     font-family: roboto,sans-serif;
     font-size:16px;
-    line-height 1.6em;
+    line-height 1.6rem;
     font-weight: 400;
 }
 
