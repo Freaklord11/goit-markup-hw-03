@@ -184,11 +184,6 @@ h2{
     background-color: var(--CORNFLOWER);
 }
 
-.header-div{
-    pading-top:20%;
-    padding-bottom: 0;
-}
-
 .team-members{
     display: flex;
     flex-direction: row;
