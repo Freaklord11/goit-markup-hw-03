@@ -183,6 +183,13 @@ h2{
     height: 732px;
     background-color: var(--CORNFLOWER);
 }
+
+.header-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 .team-members{
     display: flex;
     flex-direction: row;
