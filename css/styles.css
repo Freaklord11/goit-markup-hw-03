@@ -178,6 +178,9 @@ h2{
 
 /*Team Members*/
 
+.header-team{
+    width:1440px;
+    background-color: var(--CORNFLOWER);
 .team-members{
     display: flex;
     flex-direction: row;
