@@ -112,6 +112,7 @@ h2{
     background-color: var(--IRIS);
     color: var(--WHITE);
     display: inline-flex;
+    border-radius: 4px;
     padding: 16px 32px;
     align-items: flex-start;
 
