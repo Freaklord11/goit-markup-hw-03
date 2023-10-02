@@ -180,6 +180,7 @@ h2{
 
 .header-team{
     width:1440px;
+    height: 732px;
     background-color: var(--CORNFLOWER);
 }
 .team-members{
