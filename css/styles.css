@@ -136,7 +136,7 @@ h2{
 
 /*Description*/
 .head-content{
- padding: 120px;
+ padding:120px;
 }
 
 .studio-strat{
@@ -179,6 +179,7 @@ h2{
     flex-direction: row;
     gap: 24px;
     justify-content: center;
+    padding-bottom: 76px;
 }
 .header-portfolio{
     padding: 120px;
