@@ -183,7 +183,8 @@ h2{
     height: 732px;
     background-color: var(--CORNFLOWER);
 }
-header-div{
+
+.header-div{
     pading-top:20%;
     padding-bottom: 0;
 }
