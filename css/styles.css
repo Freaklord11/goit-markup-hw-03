@@ -11,28 +11,6 @@
 *::after {
   box-sizing: border-box;
 }
-/*Navigation*/
-
-.NavBar{
-    display: flex; 
-    justify-content: space-around;
-    width: 1440px;
-    height: 72px;
-    align-items: center;    
-    background-color: var(--CORNFLOWER);
-}
-.navi-menu{
-    display: inline-flex;
-    align-items: flex-start;
-    gap: 40px;
-}
-
-.contacts{
-    margin-top: 0px;
-    display: inline-flex;
-    align-items: flex-start;
-    gap: 40px;
-}
 
 /*Body Default Value*/
 body{
@@ -56,21 +34,33 @@ h2{
     text-align: center;
 }
 
-.header-div{
-    width: 496px;
-}
 
-.header-main{
-    font-size: 56px;
-    font-weight: 700;
-    line-height: 60px; 
-}
+/*Navigation*/
 
-/* Navigation Section */
-
-.NavBar.box{
+.NavBar{
+    display: flex; 
+    justify-content: space-around;
     width: 1440px;
+    height: 72px;
+    align-items: center;  
+    background-color: var(--CORNFLOWER);
 }
+.navi-menu{
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 40px;
+}
+
+.contacts{
+    display: inline-flex;
+    align-items: center;
+    gap: 40px;
+}
+
+
+
+/* Nav Logo */
+
 .logo{
     text-decoration: none;
     color: var(--NAVY-BLUE);
@@ -105,8 +95,19 @@ h2{
     flex-shrink: 0;
 }
 
+.header-div{
+    width: 496px;
+}
+
+.header-main{
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 60px; 
+}
+
 
 /*Button Div+*/
+
 
 .order{
     background-color: var(--IRIS);
